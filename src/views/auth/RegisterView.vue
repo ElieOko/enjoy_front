@@ -1,8 +1,9 @@
 <script setup lang="ts">
 </script>
 <template>
-<div class="min-h-screen bg-no-repeat bg-cover bg-center relative h-full" style="background-image: url('./enjoy/man.jpeg');">
-    <div class="flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
+<div class="min-h-screen bg-no-repeat bg-cover bg-center" style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('./enjoy/wen.jpeg')" >
+  
+    <div class="flex  min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
   <div class="sm:mx-auto sm:w-full sm:max-w-md mb-5">
     
     <h2 class="mt-6 text-center text-4xl font-bold leading-9 tracking-tight text-white">Karibu Enjoy Tourism</h2>

@@ -2,12 +2,13 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
+//@ts-ignore
+import Layout from './components/Layout.vue'
 import App from './App.vue'
 import router from './router'
 
 const app = createApp(App)
-
+app.component('DefaultLayout', Layout)
 app.use(createPinia())
 app.use(router)
 
